@@ -1,0 +1,13 @@
+<article class="product">
+  <h1><%= product.title %></h1>
+  <p>
+    <strong>Por:</strong>
+    <%= number_to_currency product.price %>
+  </p>
+  <%= simple_format product.description %>
+  <%= image_tag "products/#{product.image}" %>
+
+  <p class="price">
+    <%= link_to "Comprar", checkout_path(product), class: "buy" %>
+  </p>
+</article>

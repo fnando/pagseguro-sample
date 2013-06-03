@@ -1,0 +1,33 @@
+.product {
+  padding-left: 180px;
+  position: relative;
+
+  img {
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+.buy {
+  display: inline-block;
+  background: #84aa69;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+
+  &:hover {
+    background: darken(#84aa69, 15%);
+  }
+}
+
+.product + .product {
+  margin-top: 50px;
+}

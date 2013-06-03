@@ -1,0 +1,7 @@
+== Executando o exemplo
+
+Primeiro, execute o comando <tt>bundle install</tt>. Isso irá instalar todas as dependências necessárias.
+
+Depois, edite o arquivo <tt>.env</tt> com as suas credenciais do PagSeguro.
+
+Finalmente, execute o servidor com o comando <tt>rails server</tt>.
